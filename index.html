@@ -1,0 +1,190 @@
+<!doctype html>
+
+<html>
+
+<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="normalize.css">
+ <!-- 어도비 본명조 -->
+ <script src="https://use.typekit.net/fdv0sur.js"></script>
+
+<style >
+ body{background: black;}
+ h1,h2,h3,h4,p{font-family: "source-han-serif-korean",serif; font-weight:400}
+
+ .wrap{width: 1400px; margin: auto; position: relative;}
+ .wrap2{margin: auto;}
+ .black{background:black;}
+ /*.b {text-align: center;}*/
+
+ #back1{background:url('./img/1-1.png'); 
+ background-size:100% auto; height:925px;}
+ #back2{background:url('./img/2-1.png'); 
+ background-size:100% auto; height:2150px;}
+ #back3{background:url('./img/3-1.png'); 
+ background-size:100% auto; height:1250px;}
+ #back4{background:url('./img/4-1.png'); 
+ background-size:100% auto; height:1500px;}
+ #back5{background:url('./img/5-1.png'); 
+ background-size:100% auto; height:1400px;}
+ #back6{background:url('./img/6-1.png'); 
+ background-size:100% auto; height:2800px;}
+
+ h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11,h12,h13,p,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14{font-family: "source-han-serif-korean",serif;}
+
+
+ /*header p{font-size:2em; position:absolute; top:1490px;left:715px; line-height: 1.7;}
+ header h3{font-size:2em; position: absolute; top:1440px;left:715px; line-height: 1.7; text-decoration: underline; font-weight: bold;}*/
+ header h1{font-size:7.8em; position: absolute; top:485px; left:200px; line-height: 1.5; font-weight: 900; color: white;}
+ header h2{font-size:1.3em; position: absolute; top:60px; left:330px; line-height: 1.3; font-weight: bold; color: white;}
+ h3{font-size:2.8em; position: absolute; top:307px; left:435px; line-height: 1.7;  font-weight: 800; color: #ce0d0d; text-align: center;}
+ h4{font-size:2.8em; position: absolute; top:1065px; left:660px; line-height: 1.8; font-weight: bold; color: white;}
+  h5{font-size:2.8em; position: absolute; top:374px; left:539px; line-height: 1.7; color: white; font-weight: bold; }
+  h6{font-size:2.8em; position: absolute; top:300px; left:740px; line-height: 1.7; color: white; font-weight: 900; }
+  h7{font-size:2.8em; position: absolute; top:222px; left:350px; line-height: 1.6; color: white; font-weight: bold; text-align: center;}
+  h8{font-size:2.8em; position: absolute; top:300px; left:325px; line-height: 1.7; color: white; font-weight: 900; text-align: center;}
+
+  h9{font-size:3.8em; position: absolute; top:2200px; left:325px; line-height: 1.7; color: white; font-weight: 900; text-align: center;}
+  h10{font-size:2.2em; position: absolute; top:2150px; left:325px; line-height: 1.7; color: white; font-weight: 700; text-align: center;}
+  h12{font-size:2.2em; position: absolute; top:2300px; left:325px; line-height: 1.7; color: white; font-weight: 700; text-align: center;}
+  h11{font-size:1em; position: absolute; top:2130px; left:325px; line-height: 1.7; color: white; font-weight: 400; text-align: center;}
+  h13{font-size:1em; position: absolute; top:2370px; left:325px; line-height: 1.7; color: white; font-weight: 400; text-align: center;}
+
+
+  p{font-size:1.2em; position: absolute; top:1235px; left:775px; line-height: 1.9; color: white; }
+  p1{font-size: 1.2em; text-align:left; margin: auto; line-height: 2.0; position: absolute; top: 735px; left: 710px; color: white; font-weight: 200;}
+  p2{font-size: 1.2em; text-align:right; margin: auto; line-height: 2.0; position: absolute; top: 975px; left: 734px; color: white; font-weight: 200;}
+  p3{font-size: 1.2em; text-align:right; margin: auto; line-height: 2.0; position: absolute; top: 1132px; left: 515px; color: white; font-weight: 200;}
+  p4{font-size: 1.2em; text-align:left; margin: auto; line-height: 2.0; position: absolute; top: 744px; left: 290px; color: white; font-weight: 200;}
+  p5{font-size: 2.2em; text-align:center; margin: auto; position: absolute; top: 490px; left: 192px; color: white; font-weight: 900;}
+  p6{font-size: 1.2em; text-align:left; margin: auto; line-height: 2.0; position: absolute; top: 578px; left: 357px; color: white; font-weight: 200;}
+   p7{font-size: 2.2em; text-align:center; margin: auto; position: absolute; top: 490px; left: 810px; color: white; font-weight: 900;}
+   p8{font-size: 1.2em; text-align:right; margin: auto; line-height: 2.0; position: absolute; top: 578px; left: 789px; color: white; font-weight: 400;}
+   p9{font-size: 2.2em; text-align:center; margin: auto; position: absolute; top: 929px; left: 192px; color: white; font-weight: 900;}
+   p10{font-size: 1.2em; text-align:left; margin: auto; line-height: 2.0; position: absolute; top: 1020px; left: 358px; color: white; font-weight: 400;}
+   p11{font-size: 2.1em; text-align:right; margin: auto; position: absolute; top: 923px; left: 660px; color: white; font-weight: 700;}
+   p12{font-size: 1.2em; text-align:right; margin: auto; line-height: 2.0; position: absolute; top: 1020px; left: 789px; color: white; font-weight: 400;}
+   p13{font-size: 1.2em; margin: auto; line-height: 1.9; position: absolute; top: 568px; left: 810px; color: white; font-weight: 100;}
+
+   p14{font-size: 0.7em; margin: auto; line-height: 1.9; position: absolute; top: 2715px; left: 665px; color: white; font-weight: 400; text-align: center;}
+
+
+
+
+
+</style>
+
+<head>
+</head>
+
+<body>
+ <header class="black">
+  <div class="wrap2" id="back1">
+    <h2>TRICK 
+      <br>TREAT</h2>
+      <h1> </h1>
+  </div>
+ </header>
+
+ <section class="black" >
+  <div class="wrap" id="back2">
+    <h3>" 나에게 과자를 주지 않으면 <br>저주할거야 ! "</h3>
+    <br>
+    <h4>FROM 16 CENTURY.</h4> 
+   <p>“trick or treat”은 1920년대 <br>후반부터 존재했던 오랜 할로윈의 <br>전통이다. 간식거리 같은 음식에 <br>대한 대가로 구절을 낭독하고 때로 <br>환영받지 못하면 그들에게 불행을 <br>경고하는 사례가 많다.</p>
+  </div>
+ </section>
+
+ <section class="black">
+  <div class="wrap" id="back3">
+   <h5>WHAT IS <br>'TRICK OR TREAT'?</h5>
+    <p1>매년 10월 31일에 진행. 많은 국가에 있는 아이, 성인을 <br>
+      위한 Halloween만의 의식 관례. 오늘날 핼러윈의 대표<br>
+      적인 행사로, 아이들이 마녀나 요정, 유령, 인기 만화의<br>
+     주인공 등으로 분장하고 집집마다 다니면서 먹을거리를<br>
+      얻는 놀이를 ‘트릭 오어 트릿’ (trick or treat)이라고 <br>불리운다.
+</p1>
+<p2>일반적으로 ‘treat’은<br>
+간식 거리의 형태이며, ‘trick’은 대우가 보<br>
+통 주어지지 않을 때 행해지는 것을 말한다. </p2>
+<p3>아이들은 집 주인이 거부할 경우, 문 앞에<br>
+ 더러운 것을 놓아두거나 낙서를 하는 등<br> 장난을 쳤다고 한다.
+</p3>
+  </div>
+ </section>
+
+ <section class="black">
+  <div class="wrap" id="back4">
+    <h6> THE ORIGIN OF<br>JACK-O-LANTERN.
+</h6>
+<p4>전설에 따르면 옛날에 잭이라는 사람이 꽤<br>
+  인색한 사람이라 천국에 들어가지 못했다<br>
+고 한다. 또 잭은 악마들에게도 장난을 많<br>
+이 쳤기 때문에 지옥에도 갈 수 없었다.<br>
+그 결과 잭은 최후의 심판의 날이 올 때<br>
+까지 랜턴을 가지고 땅 위를 걸어 다닐 수<br>
+밖에 없었다. 그래서 아일랜드 사람들은<br>
+순무, 감자들을 가지고 속을 파내서 무서<br>
+운 얼굴로 만들었던 것이다.</p4>
+  </div>
+ </section>
+
+ <section class="black">
+  <div class="wrap" id="back5">
+    <h7>COUNTRIES WHERE<br>"TRICK OR TREAT !" is used :</h7>
+    <p5>“ trick or treat  ! ”</p5>
+    <p6>아일랜드계 이민자들을 받아들<br>
+이면서 유행하기 시작한 것이<br>
+고도로 상업화된 놀이가 되고<br>
+이것이 다시 미디어를 거치면서<br>
+세계적으로 퍼지기 시작한<br>것이다.</p6>
+<p7>“ trick nó cóir leighis ! ”</p7>
+<p8>미국으로 이주한 25만여명의<br>
+  아일랜드 이민자들이 뉴 잉글<br>
+랜드와 메릴랜드 등에서 할로<br>
+윈 축제를 치뤘는데 이 무렵 할<br>
+로윈은 한 해의 수확을 마친걸<br>축하하며 이웃과 세상을 떠난<br>이를 추억하는 형식이다.</p8>
+<p9>“ Cleas no tiodhlac ! ”</p9>
+<p10>본래의 할로윈 축제는 스코틀랜드<br>
+  ·아일랜드 이민자들이 치르는<br>
+  소규모 지역축제였다. 이민자 1백<br>
+  만명이 미국으로 대거 유입되어<br>
+  미국에 정착하면서 할로윈 축제<br>
+가 전역으로 퍼졌다.</p10>
+<p11>“ トリックまたはトリートメント ! ”</p11>
+<p12>1990년대 도쿄 디즈니랜드에<br>
+ 할로윈 행사를 도입, 확산되기<br>
+ 시작하며 2000년대 회사들이<br>
+ 할로윈 시장에 뛰어, 코스프레<br>
+를 좋아하는 일본의 분위기와<br>맞물려 급격히 확산되었다.</p12>
+  </div>
+ </section>
+
+ <footer class="black">
+  <div class="wrap" id="back6">
+    <h8> " TRICK OR<br>TREAT ! "</h8>
+    <p13>영국과 아일랜드의<br> 
+특정 휴일에 전통에<br>따라 의상을 입은 채로<br>가거나, 음식이나<br>음료를 대가로<br>
+짧은 장면이나 희곡을<br>연주하는 것과<br>관련있다.
+<br><br><br><br>
+ 
+할로윈에 대한<br>
+‘trick or treat’<br>관습은 초자연적인<br>존재 또는<br>
+죽은 자의 영혼이 이<br>시간에 지구를<br>배회했으며, 
+그것을 달래야 할<br>필요가 있다는<br>신념에서비롯되었다.</p13>
+<h9>¿me da mi calaverita?</h9>
+<h10>¿me da mi calaverita?</h10>
+<h11>¿me da mi calaverita?</h11>
+<h12>¿me da mi calaverita?</h12>
+<h13>¿me da mi calaverita?</h13>
+<p14>DIGITAL PUBLISING<br>
+할로윈의 TMI<br><br>
+2016286009 김수련</p14>
+  </div>
+ </footer>
+ 
+
+</body>
+ 
+
+</html>
